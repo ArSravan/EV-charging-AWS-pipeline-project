@@ -1,1 +1,2 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
+data/dashboard/charge_sessions_enriched.csv filter=lfs diff=lfs merge=lfs -text
