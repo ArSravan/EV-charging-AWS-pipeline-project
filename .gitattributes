@@ -1,2 +1,11 @@
-*.csv filter=lfs diff=lfs merge=lfs -text
+# Text files
+*.py text
+*.md text
+requirements*.txt text
+
+# CSVs (binary for local and real sources)
+data/local_source/*.csv binary
+data/real_source/*.csv binary
+
+# Dashboard CSV via Git LFS
 data/dashboard/charge_sessions_enriched.csv filter=lfs diff=lfs merge=lfs -text

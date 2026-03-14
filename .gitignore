@@ -1,16 +1,4 @@
-# Ignore raw data
+# Only ignore raw data, large temp files
 data/raw/
-
-# Allow processed datasets
-!data/local_session/
-!data/local_session/*.csv
-
-!data/real_station/
-!data/real_station/*.csv
-
-!data/dashboard/
-!data/dashboard/*.csv
-
-# Ignore other heavy files
 *.parquet
 *.zip
