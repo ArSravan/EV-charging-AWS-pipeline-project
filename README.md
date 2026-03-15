@@ -261,8 +261,6 @@ If you want to skip generating the enriched CSV locally:
 3. Run the Streamlit dashboard:
 ```bash
 streamlit run dashboard/app.py
-```bash
-streamlit run dashboard/app.py
 ```
 
 ```markdown
