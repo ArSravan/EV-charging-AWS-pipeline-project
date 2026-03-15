@@ -252,6 +252,15 @@ python prefect_flows/ev_charging_pipeline.py
 ```
 
 ### 7. Run Streamlit dashboard
+#### Optional: Use the precomputed enriched CSV for dashboard
+
+If you want to skip generating the enriched CSV locally:
+
+1. Download `charge_sessions_enriched.csv` from [here](https://drive.google.com/file/d/1gTNsrihoe_D52zJLo-UptbEt2K9hrIBY/view?usp=sharing)
+2. Place it in `data/dashboard/`
+3. Run the Streamlit dashboard:
+```bash
+streamlit run dashboard/app.py
 ```bash
 streamlit run dashboard/app.py
 ```
